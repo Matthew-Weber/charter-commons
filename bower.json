@@ -1,0 +1,15 @@
+{
+  "name": "charterCommons",
+  "description": "Common files used by all Reuters charters",
+  "main": [
+    "scss/color.scss",
+    "scss/chartstyles.scss",
+    "js/src/color.js",
+    "js/src/localizer.js"
+    
+  ],
+  "version": "0.0.1",
+   "ignore": [
+    "/.*"
+  ]
+}
