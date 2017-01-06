@@ -51,9 +51,11 @@
 		.nested-chart{
 			width:100% !important;			
 		}
+		
 		.nested-legend{
 			width:100% !important;
 			position: static;
+			min-height: 35px;
 		}
 		.legendItems{
 			position:static;
