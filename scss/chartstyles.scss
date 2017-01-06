@@ -29,10 +29,25 @@
 }
 	
 }
-
+.navContainer.spacer{
+	min-height: 27px;
+}
+.page-legend{
+	width:100%;
+	height:30px;
+	.legendItems{
+		width:100px;
+		height:30px;
+		position:static;
+		display:inline-block;
+	}
+}
 .chart-holder{
 	position:relative;
 	&.smaller{
+		.chart-nav{
+			margin-bottom:10px;
+		}
 		.nested-chart{
 			width:100% !important;			
 		}
