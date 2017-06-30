@@ -57,12 +57,23 @@
 			position: static;
 			min-height: 35px;
 		}
+		.legend-items-holder{
+			display:flex;
+			flex-wrap: wrap-reverse;
+			flex-direction: row-reverse;
+			justify-content: flex-end;
+		}
 		.legendItems{
 			position:static;
-			width:calc((100% / 3) - 10px);
-			display:inline-block;
+			width:auto;
+			display:block;
 			vertical-align: top;
 			margin-bottom: 0px;
+			margin-right:10px;
+			
+		}
+		.legendInline{
+			width:auto !important;
 		}
 		.legendContainer{
 			.valueTip{
@@ -77,6 +88,9 @@
 		}
 		.reuters-tooltip{
 			display:block !important;
+		}
+		.legend-ital{
+			display:none;
 		}
 	}
 }
