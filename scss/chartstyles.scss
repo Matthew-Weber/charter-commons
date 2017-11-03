@@ -157,10 +157,11 @@ hr{
 		border-radius: 10px;
 		display:inline-block;
 		vertical-align: top;
-		margin-top: 6px;
+		margin-top: 2px;
 		margin-right:2px;
 		&.line{
 			border-radius: 3px;
+			margin-top: 6px;
 			height:3px;
 		}
 		&.bar{
