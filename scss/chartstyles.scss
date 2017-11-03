@@ -90,7 +90,7 @@
 			display:block !important;
 		}
 		.legend-ital{
-			display:none;
+			display:none !important;
 		}
 	}
 }
@@ -114,7 +114,8 @@ hr{
 	.legend-ital{
 		font-style: italic;
 		margin-bottom: 8px;
-		line-height: 1;		
+		line-height: 1;
+		display:none;		
 	}
 }
 .legendItems{
@@ -156,7 +157,7 @@ hr{
 		border-radius: 10px;
 		display:inline-block;
 		vertical-align: top;
-		margin-top: 2px;
+		margin-top: 6px;
 		margin-right:2px;
 		&.line{
 			border-radius: 3px;
