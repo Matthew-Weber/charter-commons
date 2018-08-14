@@ -9,10 +9,11 @@
     
   ],
    "dependencies": {
-    	"sass-material-colors": "^0.0.5"
+    	"sass-material-colors": "^0.0.5",
+		"popper.js": "^1.14.4"    	
   }, 
   
-  "version": "0.0.20",
+  "version": "0.0.21",
    "ignore": [
     "/.*"
   ]
